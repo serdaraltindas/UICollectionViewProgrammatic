@@ -28,8 +28,6 @@ class ViewController: UIViewController, UICollectionViewDelegateFlowLayout, UICo
             collectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -10)
         ])
           
-        
-        
         collectionView.dataSource = self
         collectionView.delegate = self
         collectionView.register(CustomCell.self, forCellWithReuseIdentifier: "cell")
