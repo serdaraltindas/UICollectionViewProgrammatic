@@ -27,6 +27,8 @@ class ViewController: UIViewController, UICollectionViewDelegateFlowLayout, UICo
             collectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor , constant: 10),
             collectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -10)
         ])
+          
+        
         
         collectionView.dataSource = self
         collectionView.delegate = self
