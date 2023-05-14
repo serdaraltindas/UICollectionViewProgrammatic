@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController, UICollectionViewDelegateFlowLayout, UICollectionViewDataSource {
   
+    //let car = ["car1","car2","car3","car4","car5","car6","car7","car8"]
     let car = ["car1","car2","car3","car4","car5","car6","car7","car8"]
     
     var collectionView : UICollectionView!
